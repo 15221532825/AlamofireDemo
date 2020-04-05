@@ -45,6 +45,7 @@ extension AlamofireObj{
     static  func loadHttpData( _ urlString:String,_ index:Int,_ originAry:NSMutableArray, _ dataClosure:@escaping (NSMutableArray)->()){
         AF.request(urlString).responseJSON { (resp) in
             
+            print(resp.response?.statusCode)
             if let response = resp.value{
                 
                 let responseDict = response as! [String:AnyObject]

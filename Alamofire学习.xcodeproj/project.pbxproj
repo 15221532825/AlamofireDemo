@@ -21,6 +21,7 @@
 		DDEEEA3A2439799900AF3771 /* Pods_Alamofire学习.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDEEEA382439799900AF3771 /* Pods_Alamofire学习.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DDEEEA3D2439AA1B00AF3771 /* AlamofireObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEEEA3C2439AA1B00AF3771 /* AlamofireObj.swift */; };
 		DDEEEA3F2439B6D300AF3771 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEEEA3E2439B6D300AF3771 /* TableCell.swift */; };
+		DDEEEA41243A09CE00AF3771 /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEEEA40243A09CE00AF3771 /* AlamofireManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		DDEEEA382439799900AF3771 /* Pods_Alamofire学习.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_Alamofire学习.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEEEA3C2439AA1B00AF3771 /* AlamofireObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireObj.swift; sourceTree = "<group>"; };
 		DDEEEA3E2439B6D300AF3771 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		DDEEEA40243A09CE00AF3771 /* AlamofireManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 				DD6D1B8A2439754900E7A28F /* ViewController.swift */,
 				DDEEEA3C2439AA1B00AF3771 /* AlamofireObj.swift */,
 				DDEEEA3E2439B6D300AF3771 /* TableCell.swift */,
+				DDEEEA40243A09CE00AF3771 /* AlamofireManager.swift */,
 				DD6D1B8C2439754900E7A28F /* Main.storyboard */,
 				DD6D1B8F2439754900E7A28F /* Assets.xcassets */,
 				DD6D1B912439754900E7A28F /* LaunchScreen.storyboard */,
@@ -432,6 +435,7 @@
 				DDEEEA3D2439AA1B00AF3771 /* AlamofireObj.swift in Sources */,
 				DD6D1B8B2439754900E7A28F /* ViewController.swift in Sources */,
 				DD6D1B872439754900E7A28F /* AppDelegate.swift in Sources */,
+				DDEEEA41243A09CE00AF3771 /* AlamofireManager.swift in Sources */,
 				DD6D1B892439754900E7A28F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
